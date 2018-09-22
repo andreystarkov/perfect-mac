@@ -2,7 +2,17 @@
 
 My perfect dev setup for mac. Post-install & setup scripts.
 
-## Terminal
+## Usage:
+
+```bash
+  bash ./install.sh # to install everything
+  bash ./setup.sh # to setup everything
+  # edit this scripts to customize
+```
+
+## Stack
+
+### Terminal
 - Zsh
 - Oh-my-zsh
 - Zgen
@@ -11,7 +21,7 @@ My perfect dev setup for mac. Post-install & setup scripts.
 - Fish
 - iTerm2
 
-## Dev things
+### Dev things
 - Node.js
 - Python
 - Ruby
@@ -21,7 +31,7 @@ My perfect dev setup for mac. Post-install & setup scripts.
 - Postman
 - Kaleidoscope
 
-## React Native tools
+### React Native tools
 - Create React Native App
 - React Native Cli
 - Android SDK
@@ -30,7 +40,7 @@ My perfect dev setup for mac. Post-install & setup scripts.
 - Gradle
 - XCode
 
-## Utilites
+### Utilites
 - Alfred
 - Amphetamine
 - Caffeine
@@ -48,7 +58,7 @@ My perfect dev setup for mac. Post-install & setup scripts.
 - Cakebrew
 - Bartender 3
 
-## CLIs
+### CLIs
 - create-react-app
 - npm-check-updates
 - yarn
@@ -69,7 +79,7 @@ My perfect dev setup for mac. Post-install & setup scripts.
 - tmate
 - ngrok
 
-## Apps
+### Apps
 - Transmission
 - Skype
 - Telegram
@@ -87,11 +97,3 @@ My perfect dev setup for mac. Post-install & setup scripts.
 ## Fonts
 - Fira code
 - Hack
-
-### Usage:
-
-```bash
-  bash ./install.sh # to install everything
-  bash ./setup.sh # to setup everything
-  # edit this scripts to customize
-```
