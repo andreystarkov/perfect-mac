@@ -1,6 +1,6 @@
 # Perfect Mac
 
-My perfect dev setup for mac.
+My perfect dev setup for mac. Post-install & setup scripts.
 
 ## Terminal
 - Zsh
