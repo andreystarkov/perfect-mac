@@ -1,5 +1,5 @@
-# Perfect Mac
-
+# Perfect Mac :green_apple: :fork_and_knife: :ok_hand:
+ 
 My setup for mac. Install & setup scripts.
 
 ## Usage:
@@ -7,7 +7,6 @@ My setup for mac. Install & setup scripts.
 ```bash
   bash ./install.sh # to install everything
   bash ./setup.sh # to setup everything
-  # edit this scripts to customize
 ```
 
 ## Stack
@@ -30,6 +29,10 @@ My setup for mac. Install & setup scripts.
 - Github Desktop
 - Postman
 - Kaleidoscope
+
+## Code fonts
+- Fira code
+- Hack
 
 ### React Native tools
 - Create React Native App
@@ -58,6 +61,23 @@ My setup for mac. Install & setup scripts.
 - Cakebrew
 - Bartender 3
 
+### Apps
+- Transmission
+- Skype
+- Telegram
+- Slack
+- Marked
+- Lightshot
+- GIF Brewbery
+- VLC
+- MPV
+- Spark
+- Bee
+- Agenda
+- Simplenote
+
+
+
 ### CLIs
 - create-react-app
 - npm-check-updates
@@ -79,21 +99,3 @@ My setup for mac. Install & setup scripts.
 - tmate
 - ngrok
 
-### Apps
-- Transmission
-- Skype
-- Telegram
-- Slack
-- Marked
-- Lightshot
-- GIF Brewbery
-- VLC
-- MPV
-- Spark
-- Bee
-- Agenda
-- Simplenote
-
-## Fonts
-- Fira code
-- Hack
