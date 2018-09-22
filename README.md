@@ -1,6 +1,6 @@
 # Perfect Mac :green_apple: :fork_and_knife: :ok_hand:
  
-My setup for mac. Install & setup scripts.
+My setup for mac. Install & configuration scripts.
 
 ## Usage:
 
