@@ -37,6 +37,7 @@ brew install openssl
 brew install boost
 brew install pcre
 brew install pkg-config
+brew install python
 brew install python3
 brew install readline
 brew install xz
@@ -54,11 +55,22 @@ brew install fish
 brew install mc
 brew install asciinema
 
+brew install yank
+brew install ncdu
+pip install ctop
+brew install tldr
+brew install dark-mode
+brew install ranger
+brew install tmux
+brew install icdiff
+brew install nmap
+brew install exa
+brew install tmate
 brew install graphicsmagick
 brew install gsl
-
 brew install yarn --ignore-dependencies
 
+brew cask install ngrok
 brew cask install alfred
 brew cask install sizeup
 brew cask install typinator
@@ -66,9 +78,7 @@ brew cask install istat-menus
 brew cask install flux
 brew cask install appcleaner
 brew cask install backblaze
-brew cask install hosts
 brew cask install carbon-copy-cloner
-brew cask install aerial
 # brew cask install google-drive
 # brew cask install dropbox
 
@@ -80,7 +90,7 @@ brew install mpv --with-bundle
 brew linkapps mpv
 
 brew cask install bee
-brew cask install disk-inventory-x
+# brew cask install disk-inventory-x
 brew cask install moom
 brew cask install unetbootin
 brew cask install caffeine
@@ -103,7 +113,6 @@ defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 brew cask install firefox
 brew cask install opera
 brew cask install java
-brew cask install ngrok
 brew cask install postman
 brew cask install screenflow
 brew cask install bartender
@@ -113,14 +122,13 @@ brew cask install iterm2
 brew cask install visual-studio-code
 brew cask install sourcetree
 brew cask install github-desktop
+brew cask install kaleidoscope
 # brew cask install sublime-text
 
 # brew cask install coteditor
 brew cask install flux
-brew cask install forklift
 brew cask install franz
 brew cask install imageoptim
-brew cask install kakapo
 brew cask install little-snitch
 brew cask install marked
 brew cask install qlimagesize
@@ -129,7 +137,6 @@ brew cask install tg-pro
 brew cask install transmission
 brew cask install viscosity
 brew cask install xld
-brew cask install beamer
 brew cask install betterzipql
 brew cask install caffeine
 brew cask install cakebrew
@@ -156,6 +163,7 @@ sudo npm install -g react-native-cli
 sudo npm install -g create-react-native-app
 sudo npm install -g unsplash-wallpaper
 sudo npm install -g reactotron
+sudo npm install -g svgo
 
 brew install mas
 mas install 937984704 # Amphetamine
