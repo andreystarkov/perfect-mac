@@ -30,7 +30,7 @@ My setup for mac. Install & setup scripts.
 - Postman
 - Kaleidoscope
 
-## Code fonts
+### Code fonts
 - Fira code
 - Hack
 
@@ -75,8 +75,6 @@ My setup for mac. Install & setup scripts.
 - Bee
 - Agenda
 - Simplenote
-
-
 
 ### CLIs
 - create-react-app
