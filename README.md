@@ -6,7 +6,7 @@ My setup for mac. Install & configuration scripts.
 
 ```bash
   bash ./install.sh # to install everything
-  bash ./setup.sh # to setup everything
+  bash ./configure.sh # to configure everything
 ```
 
 ## Stack
