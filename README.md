@@ -1,6 +1,6 @@
 # Perfect Mac
 
-My perfect dev setup for mac. Post-install & setup scripts.
+My setup for mac. Install & setup scripts.
 
 ## Usage:
 
