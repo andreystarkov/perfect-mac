@@ -1,4 +1,4 @@
-## Perfect Mac
+# Perfect Mac
 
 My perfect dev setup for mac.
 
