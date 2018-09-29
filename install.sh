@@ -130,7 +130,7 @@ brew cask install gitify
 # brew cask install sublime-text
 
 # brew cask install coteditor
-brew cask install flux
+# brew cask install flux
 # brew cask install franz
 brew cask install imageoptim
 brew cask install little-snitch
