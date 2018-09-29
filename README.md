@@ -2,6 +2,14 @@
 
 My perfect dev setup for mac.
 
+### Usage:
+
+```bash
+  bash ./install.sh # to install everything
+  bash ./setup.sh # to setup everything
+  # edit this scripts to customize
+```
+
 ## Terminal
 - Zsh
 - Oh-my-zsh
@@ -19,7 +27,10 @@ My perfect dev setup for mac.
 - Sourcetree
 - Github Desktop
 - Postman
+- Insomnia
+- Gitify
 - Kaleidoscope
+- XCode
 
 ## React Native tools
 - Create React Native App
@@ -27,26 +38,45 @@ My perfect dev setup for mac.
 - Android SDK
 - Genymotion
 - Reactotron
+- React Native Debugger
 - Gradle
-- XCode
 
 ## Utilites
 - Alfred
 - Amphetamine
-- Caffeine
 - Appcleaner
 - iStat Menus
 - Typinator
-- Backblaze
 - Sizeup
 - Cheatsheet
 - Docker
 - Virtualbox
-- The Unarchiver
 - Easyfind
 - AutoMute
-- Cakebrew
 - Bartender 3
+- Spectacle
+
+## Apps
+- Transmission
+- Skype
+- Telegram
+- Slack
+- Marked
+- Lightshot
+- GIF Capture
+- VLC
+- MPV
+- Spark
+- Bee
+- Agenda
+- Simplenote
+- Colorpicker
+- Inkscape
+
+## Fonts
+- Fira code
+- Hack
+
 
 ## CLIs
 - create-react-app
@@ -61,37 +91,9 @@ My perfect dev setup for mac.
 - asciinema
 - mas
 - svgo
-- dark-mode
 - ranger
 - tmux
 - icdiff
 - exa
 - tmate
 - ngrok
-
-## Apps
-- Transmission
-- Skype
-- Telegram
-- Slack
-- Marked
-- Lightshot
-- GIF Brewbery
-- VLC
-- MPV
-- Spark
-- Bee
-- Agenda
-- Simplenote
-
-## Fonts
-- Fira code
-- Hack
-
-### Usage:
-
-```bash
-  bash ./install.sh # to install everything
-  bash ./setup.sh # to setup everything
-  # edit this scripts to customize
-```

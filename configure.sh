@@ -1,10 +1,16 @@
-# sudo scutil --set ComputerName "browndwarf"
-# sudo scutil --set HostName "blackhole"
 
-# git config --global user.name "Andrey Starkov"
-# git config --global user.email im@andreystarkov.ru
+GIT_NAME="Andrey Starkov"
+GIT_EMAIL="im@andreystarkov.ru"
+
+# sudo scutil --set ComputerName "browndwarf"
+sudo scutil --set HostName "blackhole"
+
+git config --global user.name $GIT_NAME
+git config --global user.email $GIT_EMAIL
 
 sudo defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+  
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 
 ## TURN OFF SCREENSAVER PASSWORD DELAY
 defaults write com.apple.screensaver askForPassword -int 1
