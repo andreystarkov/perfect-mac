@@ -1,8 +1,8 @@
-## Perfect Mac
+# Perfect Mac :green_apple: :fork_and_knife: :ok_hand:
 
-My perfect dev setup for mac.
+My setup for mac. Install & configuration scripts.
 
-### Usage:
+## Usage:
 
 ```bash
   bash ./install.sh # to install everything
@@ -31,6 +31,10 @@ My perfect dev setup for mac.
 - Gitify
 - Kaleidoscope
 - XCode
+
+## Code fonts
+- Fira code
+- Hack
 
 ## React Native tools
 - Create React Native App
