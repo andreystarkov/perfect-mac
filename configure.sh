@@ -2,14 +2,30 @@
 GIT_NAME="Andrey Starkov"
 GIT_EMAIL="im@andreystarkov.ru"
 
-# sudo scutil --set ComputerName "browndwarf"
+sudo scutil --set ComputerName "browndwarf"
 sudo scutil --set HostName "blackhole"
 
 git config --global user.name $GIT_NAME
 git config --global user.email $GIT_EMAIL
 
+# Set a blazingly fast keyboard repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 1
+
+# Set a shorter Delay until key repeat
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
+
+# Add a context menu item for showing the Web Inspector in web views
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+# Show the ~/Library folder
+chflags nohidden ~/Library
+
+# Store screenshots in subfolder on desktop
+mkdir ~/Desktop/Screenshots
+defaults write com.apple.screencapture location ~/Desktop/Screenshots
+
 sudo defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
-  
+
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 
 ## TURN OFF SCREENSAVER PASSWORD DELAY

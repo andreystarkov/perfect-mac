@@ -7,7 +7,17 @@ fi
 brew doctor
 brew tap caskroom/cask
 brew tap caskroom/drivers
-
+brew tap tap "caskroom/fonts"
+brew tap tap "heroku/brew"
+brew tap tap "homebrew/bundle"
+brew tap tap "homebrew/core"
+brew tap tap "homebrew/fuse"
+brew tap tap "homebrew/science"
+brew tap tap "homebrew/services"
+brew tap tap "luckyframework/lucky"
+brew tap tap "mapbox/cli"
+brew tap tap "pothosware/pothos"
+brew tap tap "rcmdnk/file"
 brew update
 
 brew install sl
@@ -23,6 +33,8 @@ echo ""
 
 brew install wget
 brew install git
+brew install git-flow
+brew install git-standup
 brew install curl
 brew install cmake
 brew install coreutils
@@ -30,7 +42,8 @@ brew install psutils
 brew install node
 brew install ruby
 brew install libssh
-
+brew install autoconf
+brew install automake
 brew install gdbm
 brew install icu4c
 brew install rsync
@@ -43,12 +56,16 @@ brew install python
 brew install python3
 brew install readline
 brew install xz
-
+brew install colordiff
 brew install autojump
 brew install joe
 brew install autojump
 brew install joe
 brew install zsh
+brew install dirmngr
+brew install gist
+brew install htop
+brew install ipfs
 # brew install zsh-autosuggestions
 # brew install zsh-syntax-highlighting
 brew install fish
@@ -109,7 +126,6 @@ brew cask install github-desktop
 brew cask install kaleidoscope
 brew cask install insomnia
 brew cask install gitify
-brew cask install gifcapture
 
 # brew cask install sublime-text
 
@@ -150,6 +166,10 @@ brew cask install easyfind
 brew cask install spark
 brew cask install flycut
 brew cask install popclip
+brew cask install gifcapture
+brew cask install colorpicker
+brew cask install xquartz
+brew cask install inkscape
 
 brew cask install docker
 brew install docker-clean
@@ -163,6 +183,7 @@ brew install ant
 brew install maven
 brew install gradle
 brew install android-sdk
+brew cask install react-native-debugger
 
 sudo npm install -g npm
 sudo npm install -g npm-check-updates
@@ -172,29 +193,9 @@ sudo npm install -g create-react-native-app
 sudo npm install -g unsplash-wallpaper
 sudo npm install -g reactotron
 sudo npm install -g svgo
+sudo npm install -g vmd
 
 brew install mas
-# mas install 937984704 # Amphetamine
-# mas install 412448059 # ForkLift
-# mas install 1118136179 # AutoMute
-# mas install 402286241 # Renamer
-# mas install 507257563 # Sip
-# mas install 425955336 # Skitch
-# mas install 526298438 # Lightshot
-# mas install 1193982190 # PDFElement
-# mas install 692867256 # Simplenote
-# mas install 1176895641 # Spark
-# mas install 411673888 # Easyfind
-# mas install 442160987 # Flycut
-# mas install 1333542190 # 1Password
-# mas install 425258189 # Prey
-# mas install 1287445660 # Agenda
-# mas install 904280696 # Things
-# mas install 1081413713 # GIF Brewbery
-# mas install 445189367 # Popclip
-# mas install 890031187 # Marked
-# mas install 747648890 # Telegram
-# mas install 946399090 # Telegram Desktop
 
 brew install stow
 git clone https://github.com/tarjoilija/zgen ~/zgen
