@@ -7,17 +7,11 @@ fi
 brew doctor
 brew tap caskroom/cask
 brew tap caskroom/drivers
-brew tap tap "caskroom/fonts"
-brew tap tap "heroku/brew"
-brew tap tap "homebrew/bundle"
-brew tap tap "homebrew/core"
-brew tap tap "homebrew/fuse"
-brew tap tap "homebrew/science"
-brew tap tap "homebrew/services"
-brew tap tap "luckyframework/lucky"
-brew tap tap "mapbox/cli"
-brew tap tap "pothosware/pothos"
-brew tap tap "rcmdnk/file"
+brew tap caskroom/fonts
+brew tap heroku/brew
+brew tap homebrew/bundle
+brew tap homebrew/core
+brew tap homebrew/services
 brew update
 
 brew install sl
@@ -206,7 +200,6 @@ cd ~
 echo "zgen load denysdovhan/spaceship-prompt spaceship" >> ~/.zshrc
 
 brew cask install font-hack-nerd-font
-brew tap caskroom/fonts
 brew cask install \
   font-fira-code \
   font-fira-mono \
