@@ -1,6 +1,8 @@
 # Perfect Mac :green_apple: :fork_and_knife: :ok_hand:
 
-My setup for mac. Install & configuration scripts.
+My mac configs are part of my [dotfiles](https://github.com/andreystarkov/dotfiles) now. Check [this repo](https://github.com/andreystarkov/dotfiles) for improved versions. So this repo isn't maitaining anymore.
+
+My setup for mac for 2018. JS Dev setup. Install & configuration scripts.
 
 ## Usage:
 
